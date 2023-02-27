@@ -1,0 +1,32 @@
+{
+  "name": "zhiyuan",
+  "version": "1.0.0",
+  "description": "智慧援助一张图",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "keywords": [
+    "gis"
+  ],
+  "author": "DirtyBottle",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "echarts": "^5.4.1"
+  }
+}
